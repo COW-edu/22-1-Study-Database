@@ -41,9 +41,9 @@ ref: [https://www.samsungsds.com/kr/insights/1232752_4627.html](https://www.sams
 
 MySQL은 master와 slave라는 구조시스템을 이용함. 
 
-메인을 마스터 서버로 시스템을 운용하는데, 일정 시점마다 slave 서버가 master 서버 데이터를 복제함.  즉, 마스터에 장애가 발생해도 미리 복제해둔 slave(의 DB)를 메인으로 대체하여 운용해도 된다는 것.
+메인을 master 서버로 시스템을 운용하는데, 일정 시점마다 slave 서버가 master 서버 데이터를 복제함.  즉, 마스터에 장애가 발생해도 미리 복제해둔 slave(의 DB)를 메인으로 대체하여 운용해도 된다는 것.
 
-하지만 동기화(시 비완전 동기화가 될 수 있는 )문제로 대부분의 은행이 MySQL과 같은 DB를 사용하지 않음.
+하지만 동기화(시 불완전 동기화가 될 수 있는 )문제로 대부분의 은행이 MySQL과 같은 DB를 사용하지 않음.
 
 하지만 카카오뱅크는 무손실복제(Lossless Replication), MHA(Master High Availability)라는 기능을 활용해 데이터 무손실 목표를 달성했다고 설명함.
 
