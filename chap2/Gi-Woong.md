@@ -302,7 +302,7 @@ ref: https://www.samsungsds.com/kr/insights/mariadb.html
 - InnoDB 버그 수정 및 알려진 버그 有 
     - 몇가지 컴파일러 경고와 컴파일 문제 해결
     - 시스템 curl 라이브러리에 연결하지 않고 curl을 포함하는 바이너리 패키지가 curl 7.80.0을 사용하도록 업그레이드됨
-- 데이터 타입(CHAR, TIMESTAMP. BIGINT 등) 버그 수정 사항 있음
+- 데이터 타입(CHAR, TIMESTAMP, BIGINT 등) 버그 수정 사항 있음
 - 캐릭터셋 미지원
     - ASCII CHARACTER SET latin1, UNICODE CHARACTER SET ucs2 미지원
     - ucs2, macroman, macce ,dec ,hp8 미지원 
