@@ -216,14 +216,11 @@ https://blog.siner.io/2021/10/11/rdbms-comparison/
 - JSON 형식 지원
     - JSON 저장 지원
     - 병렬 SQL분석 가능
-    - 여러개의 JSON 문서와 Collection들간에 복잡한
-Join 가능
+    - 여러개의 JSON 문서와 Collection들간에 복잡한 Join 가능
 
 - JavaSrcipt 실행 지원(PL/SQL과 동일 수준)
     - In-DB Graal VM 엔진
-    - JavaScript내 데이터 Type과
-Oracle 데이터베이스 데이터
-Type은 상호 자동 매핑되어 처리
+    - JavaScript내 데이터 Type과 Oracle 데이터베이스 데이터 Type은 상호 자동 매핑되어 처리
 - 샤딩(NoSQL 기술)을 통한 대용량 데이터 분산저장
 - AutoML 과 같은 멀티 워크로드 개선
 
