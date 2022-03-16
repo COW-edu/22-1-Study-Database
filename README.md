@@ -19,3 +19,5 @@
 ## 😎 참고
 - [데이터베이스 첫걸음](http://www.yes24.com/Product/Goods/32613394)
 - [Real MySQL 8.0 2권](http://www.yes24.com/Product/Goods/103415767)
+- [생활코딩 Database1](https://opentutorials.org/course/3162)
+- [생활코딩 Database2 Mysql](https://opentutorials.org/course/3161)
