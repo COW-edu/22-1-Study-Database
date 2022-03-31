@@ -45,6 +45,10 @@
 >-> 위에 것들을 싼 값으로 해결한다.  
 > ref = https://d2.naver.com/helloworld/206816
 
+> Scale Out / Scale Up  
+> Scale Out : 서버의 대수를 늘린다.  
+> Scale Up : 서버의 성능을 올린다.
+
 ### DB의 가용성을 높히자(정지 하지 않는 시스템)
 
 1. 심장 전략(고품질-소수)
