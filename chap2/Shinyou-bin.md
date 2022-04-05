@@ -123,6 +123,8 @@ InnoDB Bulk Insert시 속도를 최적화한다. 트랜잭션이 커밋(Commit) 
     - JSON_TABLE 구문을 사용할 수 있다. JSON Path 표현식을 기반으로 JSON 데이터를 추출하고 이를 관계형 테이블로 반환하는데 사용하는 구문으로 Select문의 from절 및 다중 테이블 Updata·Delete문에서 테이블을 참조하여 사용한다.
 
 ## 회사에서 사용하는 DBMS 종류
+- 국내 기업에서 많이 사용하는 데이터베이스는 **Oracle, Microsoft SQL Server, DB2** 등의 상용 DBMS이다. DB-engines라는 DBMS 인기도 조사 사이트에 의하면 시장에서 인기 있는 오픈소스 DBMS는 **MySQL, PostgreSQL** 그리고 NoSQL DBMS인 **MongoDB**이다.
+
 ![ex_screenshot](./img/graph1.jpg)
 DBMS 분야는 최근 ‘오라클’로 대변되던 관계형 DB(RDBMS) 시장에서 벗어나 다양화되고 있다. 이 추세는 최근 몇 년 간 지속되고 있으며, 향후 한 기업이 다양한 DB를 사용하는 것이 대세가 되고 있다.
 
