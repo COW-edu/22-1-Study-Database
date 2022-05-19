@@ -61,3 +61,4 @@ VIEW .. 결과 집합을 기반으로 한.. 가상의 표? (그냥 표랑 뭐가
     - CREATE
     - CREATE OR REPLACE : UPDATE
     - DROP
+    
