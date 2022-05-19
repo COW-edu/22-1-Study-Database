@@ -16,7 +16,7 @@ JOIN : 열 합치기. (+ON..)
     LEFT (OUTER) JOIN : 왼쪽  
     RIGHT (OUTER) JOIN : 오른쪽  
     FULL (OUTER) JOIN : 합집합  
-    self join : 표 안에서 자기 끼리 재구성~
+    self join : 표 안에서 자기 끼리 재구성~  
 UNION : SELECT 문에서 찾은 걸 결합하는데 사용..  
 GROUP BY : = R  
 HAVING : WHERE 이랑 비슷한데 집계 함수 사용 가능.  
