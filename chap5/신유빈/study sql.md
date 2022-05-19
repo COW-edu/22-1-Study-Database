@@ -16,7 +16,7 @@ JOIN : 열 합치기. (+ON..)
     LEFT (OUTER) JOIN : 왼쪽  
     RIGHT (OUTER) JOIN : 오른쪽  
     FULL (OUTER) JOIN : 합집합  
-    self join....... 뭘까.. 스스로?   
+    self join : 표 안에서 자기 끼리 재구성~
 UNION : SELECT 문에서 찾은 걸 결합하는데 사용..  
 GROUP BY : = R  
 HAVING : WHERE 이랑 비슷한데 집계 함수 사용 가능.  
@@ -57,7 +57,7 @@ Constraints... : 제약넣기
     - CHECK - Ensures that the valFues in a column satisfies a specific condition. 제한 만들기?  
     - DEFAULT - Sets a default value for a column if no value is specified. GETDATE() 같은 것과,, 사용가능.   
     - CREATE INDEX - Used to create and retrieve data from the database very quickly  
-VIEW .. 결과 집합을 기반으로 한.. 가상의 표? (그냥 표랑 뭐가 다르지)  
+VIEW .. 결과 집합을 기반으로 한.. 가상의 표? (자주 쓰는 data join을 가상의 표로 만들어 둔 것. 스크린 샷 같이!)  
     - CREATE  
     - CREATE OR REPLACE : UPDATE  
     - DROP  
